@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FX Funded - Scale Your Trading</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header Section (Bootstrap Navbar) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
+        <div class="container">
+            <a class="navbar-brand font-bold text-blue-600" href="#">FX Funded</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white px-3 py-2" href="#apply">Apply Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-blue-600 text-white text-center py-20">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold mb-4">Welcome to FX Funded</h1>
+            <p class="text-lg mb-6">Trade with confidence and scale your potential with funded accounts.</p>
+            <a href="#apply" class="px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-200">
+                Get Started
+            </a>
+            <div class="mt-6">
+                <img src="https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Trading Success" class="rounded-lg shadow-lg mx-auto">
+            </div>
+        </div>
+    </section>
+
+  <!-- Features Section (Tailwind CSS) -->
+  <section id="features" class="py-12 bg-gray-100">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Why Choose FX Funded?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow">
+                <i class="fas fa-chart-line text-blue-600 text-4xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">High Profit Sharing</h3>
+                <p>Receive up to 90% of profits as you grow your account.</p>
+                <img src="https://images.pexels.com/photos/4386374/pexels-photo-4386374.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Profit Sharing" class="mt-4 rounded-lg shadow">
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow">
+                <i class="fas fa-user-shield text-blue-600 text-4xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Risk Control</h3>
+                <p>Use advanced tools and guidelines to manage risk effectively.</p>
+                <img src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Risk Control" class="mt-4 rounded-lg shadow">
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow">
+                <i class="fas fa-rocket text-blue-600 text-4xl mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Scalable Growth</h3>
+                <p>Gain access to larger capital as you prove your consistency.</p>
+                <img src="https://images.pexels.com/photos/669584/pexels-photo-669584.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Scalable Growth" class="mt-4 rounded-lg shadow">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-12">
+        <div class="container">
+            <h2 class="text-center text-3xl font-bold mb-6">Trader Success Stories</h2>
+            <div id="carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="text-center">
+                            <p class="mb-4">"Joining FX Funded transformed my trading career!"</p>
+                            <strong>- Alex T.</strong>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center">
+                            <p class="mb-4">"The best scaling and profit-sharing plans in the industry."</p>
+                            <strong>- Sarah K.</strong>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 FX Funded. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
